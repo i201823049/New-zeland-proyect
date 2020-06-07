@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+@import url("menu1.css");
+@import url("banner1.css");
+@import url("banner2.css");
+@import url("blog1.css");
+@import url("banner3.css");
+@import url("info.css");
+@import url("pie.pagina.css");
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: white;
+	
+}
+video{
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	top:50%;
+	left: 50%;
+	
+	transform: translateX(-50%) translateY(-50%);
+	
+	z-index: -1;
+}
+.ajustar{
+	max-width: 50%;
+
+}
+.cajablanca{
+	
+	background: rgba(0, 0, 0   ,0.7);
+	width: 70%;
+	border-radius: 50px;
+	padding: 20px 0px;
+}
+.links{
+	color: aqua;	
+}
+.links:hover{
+	color: red;
+}
+h1{
+	float: left;
+}
+body{
+	font-family: 'Inconsolata', monospace;
+	background:    #000000    ;
+
+}
+.black{
+	color: black;
+}
+#c-slider{
+	margin: auto;
+	width: 100%;
+	
+	
+	position: relative;
+	overflow: hidden;
+	
+}
+#slider{
+	display:flex;
+	width: 400%;
+	
+	
+}
+#slider section{
+	width: 100%;
+	
+}
+
+#slider img{
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+
+#btn-prev,#btn-next{
+	width: 40px;
+	height: 40px;
+	background: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	line-height: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 50%;
+	font-family: monospace;
+	cursor: pointer;
+
+}
+#btn-prev{
+	left: 20px;
+	
+}
+#btn-next{
+	right: 20px;
+}
+#btn-prev:hover, #btn-next:hover{
+	background: rgba(255, 255, 255, 1);
+}
+header{
+	width: 100%;
+	height: 70px;
+	background: #333;
+	color: #fff;
+	
+	/*que el menu se quede pegado*/
+	position: fixed;
+	top: 0px;
+	
+	left: 0;
+	z-index: 100;
+	
+}
+
+
+
+.titulo{
+	text-decoration: none;
+	color: aliceblue;
+	font-family: 'Indie Flower', cursive;
+	
+	
+	
+
+}
+
+.contenedor{
+	width: 98%;
+	margin: auto;
+	
+	
+}
+.contenedor h1{
+	padding-top: 10px;
+	font-size: 34px;
+}
+#banner .contenedor{
+	width: 60%;
+}
+
+#fecha{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	
+}
+
+#banner img{
+	margin-top: 20px;
+}
+
+header .contenedor{
+	display: table;
+}
+
+section {
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+#Bienvenidos{
+	text-align: center;
+}
+#Bienvenidos h2{
+	font-size: 70px;
+	font-family: 'Rock Salt', cursive;
+}
+#Bienvenidos p{
+	font-size: 20px;
+
+}
+
+#inspirate{
+	text-align: center;
+}
+#inspirate h2{
+	font-size: 79px;
+	font-family: 'Montserrat', sans-serif;
+}
+#inspirate a{
+	font-size: 19px;
+	text-decoration: none;
+}
+
+#Bienvenidosx {
+	text-align: center;
+}
+#Bienvenidosx h2{
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+#Bienvenidosx p{
+	font-size: 20px;
+
+}
+#Bienvenidosx a{
+	font-size: 19px;
+	text-decoration: none;
+}
+.copy{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+footer .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 25px;
+		
+}
+.sociales{
+	width: 100%;
+	text-align: center;
+	font-size: 32px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	
+	
+}
+
+.sociales a{
+	color: white;
+	text-decoration: none;
+}
+.icon-facebook-official:hover{
+	
+	color: #7FFF90  ;
+}
+.icon-instagram-1:hover{
+	
+		color: #7FFF90  ;
+}
+.icon-mail-alt:hover{
+	
+		color: #7FFF90  ;
+}
+.icon-twitter:hover{
+	
+		color: #7FFF90  ;
+}
+.ir-arriba{
+	display: inline-block;
+	padding: 20px;
+	background: orange;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	border-radius: 10px;
+	
+	z-index: +1;
+	
+	
+}
+@media(min-width:1024px){
+	.contenedor{
+		width: 1024px;
+	}
+	.portafolio-container{
+		width: 1024px;
+	}
+}
+@media(min-width:1100px){
+	.contenedor{
+		width: 1200px;
+		margin: auto;
+	}
+	.portafolio-container{
+		width: 1200px;
+		margin: auto;
+		
+	}
+	
+}

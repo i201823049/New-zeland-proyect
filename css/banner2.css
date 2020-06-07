@@ -1,0 +1,53 @@
+
+
+
+#banner2{
+	margin-top: 50px;
+	position: relative;
+	
+}
+#banner2 img{
+	width: 90%;
+	height: 500px;
+	
+}
+#banner2 .cuadrado {
+	position: absolute;
+	top: 50%;
+	left: 60%;
+
+	transform:  translateX(-50%) translateY(-50%);
+	color: #fff;
+}
+
+
+#banner2 h2{
+	font-size: 70px;
+	color: #EC6010;
+	
+}
+#banner2 a{
+	width: 150px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 50px;
+	border: 5px solid #fff;
+	
+}
+#banner2 a:hover{
+	background: rgba(183, 52, 52,0.5);
+}
+
+.cuadrado{
+	width: 98%;
+	margin: auto;
+	
+	
+}
+
+header .cuadrado{
+	display: table;
+}
+

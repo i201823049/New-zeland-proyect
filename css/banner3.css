@@ -1,0 +1,52 @@
+
+
+
+#banner3{
+	margin-top: 50px;
+	position: relative;
+	
+}
+#banner3 img{
+	width: 90%;
+	height: 500px;
+	
+}
+#banner3 .cuadrado {
+	position: absolute;
+	top: 50%;
+	left: 60%;
+
+	transform:  translateX(-50%) translateY(-50%);
+	color: black;
+}
+
+
+#banner3 h2{
+	font-size: 70px;
+	color: #EC1A10;
+	
+}
+#banner3 a{
+	width: 150px;
+	display: block;
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 50px;
+	border: 5px solid black;
+	
+}
+#banner3 a:hover{
+	background: rgba(183, 52, 52,0.5);
+}
+
+.cuadrado{
+	width: 98%;
+	margin: auto;
+	
+	
+}
+
+header .cuadrado{
+	display: table;
+}

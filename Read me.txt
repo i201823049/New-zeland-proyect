@@ -1,0 +1,11 @@
+De preferencia usar una pantalla de 1920 x 1080 para ver la pagina correctamente en google con el zoom 100%
+
+caso contrario Aumentar el zoom de google o disminuir para ver la pagina correctamente.
+
+
+Autor:
+Patrick Rodrigo Escobar Pedraza (Twodeax)  para Cibertec Ciclo II 
+Correo:
+i201823049@cibertec.edu.pe
+
+
